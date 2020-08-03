@@ -91,12 +91,12 @@ function draw(){
     
     //monkey.changeAnimation("Monkey_05.png");
     
-    drawSprites(); 
-    
     stroke("black");
     textSize(20); 
     fill("black");
     text("Survival Time: "+0,100,50);
+    
+    drawSprites();
     
   }  
 }
