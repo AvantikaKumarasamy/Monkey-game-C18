@@ -89,10 +89,12 @@ function draw(){
     monkey.velocityX(0);
     monkey.velocityY(0);   
     
-    //monkey.changeAnimation("Monkey_05.png"); 
-
+    //monkey.changeAnimation("Monkey_05.png");
+    
+    drawSprites(); 
+    
     stroke("black");
-    textSize(20);
+    textSize(20); 
     fill("black");
     text("Survival Time: "+0,100,50);
     
